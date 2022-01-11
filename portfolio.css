@@ -1,0 +1,125 @@
+.intro{
+    background-color: rgba(34, 141, 190, 0.589);
+    margin-left: 25vh;
+    height: 100vh;
+    padding: 1rem;
+}
+.name{
+      margin-top: 0rem;
+      font-weight: lighter;
+      font-size: 2rem;
+      color: whitesmoke;
+      margin-left: 14rem;
+      margin-right:20rem ;
+     }
+
+     div>h1>span{
+         background-color:darkgoldenrod;
+     }
+     h2{
+           color: whitesmoke;
+     }
+     h2>span{
+         color: darkgoldenrod;
+     }
+     .quality{
+         margin-left: 13.50rem;
+         font-size: 1.5rem;
+     }
+     section>p{
+         color:rgba(11, 92, 184, 0.658);
+         font-size: 1.8rem;
+     }
+     .profiles{
+         margin-left: 13rem;
+        
+     }
+     a{
+        margin-right: .5rem;
+    }
+    #b1{
+        color: rgba(61, 158, 175, 0.692);
+        text-shadow: 3rem;
+        margin-left: 13rem;
+        border-radius: 1rem;
+        height: 3rem;
+        width:  7rem;
+       
+    }
+    #b2{
+        color: rgba(61, 158, 175, 0.692);
+        text-shadow: 3rem;
+        border-radius: 1rem;
+        height: 3rem;
+        width:  7rem;
+    }
+    #b2:hover{
+        background-color:aqua;
+    }
+    #b1:hover{
+        background-color:aqua;
+    }
+    .part{
+      
+       padding-top:1.2rem;
+       padding-bottom: .5rem;
+        margin-left: 11.8rem;
+        background-color: blue;
+        height: 7vh;
+        width: 85.5vw;
+    }
+    .part>h2{
+        margin-top: 0;
+        font-size: 3rem;
+        font-weight: 100;   
+        margin-left: 1.9rem;
+    }
+    .sec{
+        height: 70vh;
+        width: 80.1rem;
+        padding: 1rem;
+        background-color:azure;
+        margin-left: 11.8rem;
+        margin-top: 0rem;
+    }
+    .sec>p{
+        word-spacing: .5rem;
+        line-height: 2rem;
+        color: black;
+        font-weight: lighter;
+        font-size: 1.5rem;
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+    .projects>.card img{
+        width:29.7rem;
+        height: 15rem;
+    }
+    .card{
+        height: 50vh;
+        width:30.9vw ;
+        box-shadow: 1px 0px 9px 0px;
+        justify-content: flex-end;
+        margin-left: 3rem;
+        
+    }
+    .card>p{ 
+        margin-left: 2rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    .projects{
+        display: flex;
+        height: 70vh;
+        width: 79.1rem;
+        padding-top: 2rem;
+        padding-left:7.5rem;
+       /* background-color:azure; */
+        margin-left: 11.8rem;
+        background-color: azure;
+    }
+    h3{  color: seagreen;
+        text-decoration:underline;
+           margin-left: 2rem;
+           font-weight: lighter;
+    }
+    
