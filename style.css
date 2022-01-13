@@ -1,4 +1,4 @@
-.intro{
+/* .intro{
     background-color: rgba(34, 141, 190, 0.589);
     margin-left: 25vh;
     height: 100vh;
@@ -76,7 +76,7 @@
     }
     .sec{
         height: 70vh;
-        width: 80.1rem;
+        width: 70.1rem;
         padding: 1rem;
         background-color:azure;
         margin-left: 11.8rem;
@@ -108,18 +108,18 @@
         font-family: Georgia, 'Times New Roman', Times, serif;
         }
     .projects{
-        display: flex;
+         /* display: flex;
         height: 70vh;
-        width: 79.1rem;
+        width: 70.1rem;
         padding-top: 2rem;
         padding-left:7.5rem;
        /* background-color:azure; */
-        margin-left: 11.8rem;
-        background-color: azure;
+        /* margin-left: 11.8rem;
+        background-color: azure; */
     }
-    h3{  color: seagreen;
+    /* h3{  color: seagreen;
         text-decoration:underline;
            margin-left: 2rem;
            font-weight: lighter;
     }
-    
+     */ */
