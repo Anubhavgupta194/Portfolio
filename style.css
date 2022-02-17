@@ -19,7 +19,8 @@
  margin-left: 25vh;
  height: 100vh;
  padding: 1rem;
- width: 89.9rem ;
+ width: 89.9rem;
+ 
 }
 .name{
    margin-top: 0rem;
@@ -234,4 +235,256 @@ margin-left: 2rem;}
  font-size: 1.2rem;
 }
 
+.effect:hover{
+
+ color: red;
+
+}
+
+
+@media screen and (min-width:320px) and (max-width:768px)
+{
+ .sidebar{
+     position: fixed;
+    
+     height: 90rem;
+     width: 11.8rem;
+     box-shadow: 0px 0px 7px 0px;
+ }
+ .sidebar>img{
+     height: 12rem;
+     width: 11.6rem;
+     border-bottom: 0.3px solid black;
+ }
+ .top{
+     display: flex;
+ }
+
+.intro{
+  background-color: rgba(34, 141, 190, 0.589);
+  margin-left: 47vh;
+  height: 160vh;
+  /* padding: 1rem; */
+  width:120rem;
+  
+}
+.name{
+    margin-top: 0rem;
+    font-weight: lighter;
+    font-size: 2rem;
+    color: whitesmoke;
+    margin-left: 14rem;
+    margin-right:20rem ;
+   }
+
+   div>h1>span{
+       background-color:darkgoldenrod;
+   }
+   h2{
+         color: whitesmoke;
+   }
+   h2>span{
+       color: darkgoldenrod;
+   }
+   .quality{
+       margin-left: 13.9rem;
+       font-size: 1.5rem;
+   }
+   section>p{
+       color:rgba(11, 92, 184, 0.658);
+       font-size: 1.8rem;
+   }
+   .profiles{
+       margin-left: 13.9rem;
+      
+   }
+   a{
+      margin-right: .5rem;
+  }
+  #b1{
+      color: rgba(61, 158, 175, 0.692);
+      text-shadow: 3rem;
+      margin-left: 13rem;
+      border-radius: 1rem;
+      height: 3rem;
+      width:  7rem;
+     
+  }
+  #b2{
+      color: rgba(61, 158, 175, 0.692);
+      text-shadow: 3rem;
+      border-radius: 1rem;
+      height: 3rem;
+      width:  7rem;
+  }
+  #b2:hover{
+      background-color:aqua;
+  }
+  #b1:hover{
+      background-color:aqua;
+  }
+  .part{
+    
+     padding-top:1.2rem;
+     padding-bottom: .5rem;
+      margin-left: 11.8rem;
+      background-color: blue;
+      height: 12vh;
+      width:62.2rem;
+  }
+  .part>h2{
+      margin-top: 0;
+      font-size: 3rem;
+      font-weight: 100;   
+      margin-left: 1.9rem;
+  }
+  .sec{
+      height: 150vh;
+      width: 60.4em;
+      padding: 1rem;
+      background-color:azure;
+      margin-left: 11.8rem;
+      margin-top: 0rem;
+  }
+  .sec>p{
+      word-spacing: .5rem;
+      line-height: 2rem;
+      color: black;
+      font-weight: lighter;
+      font-size: 1.5rem;
+      margin-left: 2rem;
+      margin-top: 2rem;
+  }
+  .projects>.card img{
+      width:20.7rem;
+      height: 13rem;
+  }
+  .card{
+      height: 80vh;
+      width:104.3vw ;
+      box-shadow: 1px 0px 9px 0px;
+      justify-content: flex-end;
+      margin-left: 3rem;
+      
+  }
+  .card>p{ 
+      margin-left: 2rem;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+  .projects{
+      display: flex;
+      height: 150vh;
+      width: 55rem;
+      padding-top: 2rem;
+      padding-left:7.5rem;
+     background-color:azure; 
+      margin-left: 11.8rem;
+      background-color: azure;
+  } 
+  h3{  color: seagreen;
+      text-decoration:underline;
+         margin-left: 2rem;
+         font-weight: lighter;
+  }
+  .skills{
+      
+      height: 55rem;
+      width: 74.6rem;
+      padding-top: 2rem;
+      padding-left:7.5rem;
+     background-color:azure; 
+      margin-left: 11.8rem;
+      background-color: azure;
+  }
+  .slabs{
+
+      
+      height: 15rem;
+      width:  200vw;
+      box-shadow: 0px 0px 9px 0px;
+      padding-top: 0.1rem;
+      margin-bottom: 2rem;
+      background-color: white;
+  }
+  
+  .slabshead {
+   
+     padding-left: 3rem;
+     height: 2.4rem;
+     border-bottom: 0.1px solid darkgray;
+     margin-left: 2rem;
+     margin-right: 2rem;
+     margin-bottom: 1rem;
+   
+  }
+  #st{            color: peru;
+               font-size: 2.2rem;
+               font-weight: lighter;
+  }
+  .slabsdata{
+      display: flex;
+      padding-left: 4rem;
+      padding-top: 1rem;
+      height: 7rem;
+      
+  }
+  .slabsdata>div{
+     margin-left: .2rem;
+     text-align: center;
+     margin-right: 7rem;
+  }
+  .slabsdata img{
+      margin-bottom: .5rem;
+      display: table-cell;
+      width: 4rem;
+      height: 4rem;
+  }
+  .edu{
+      height: 35rem;
+      width: 36rem;
+     
+      box-shadow: 0px 0px 9px 0px;
+  
+  }
+    .Education{
+      display: flex;
+      height: 150vh;
+      width: 74.6rem;
+      padding-top: 2rem;
+      padding-left:7.5rem;
+     background-color:azure; 
+      margin-left: 11.8rem;
+      background-color: azure;
+    }
+    .Education a:hover{
+        cursor:pointer;
+    }
+    .edu li{
+        font-size: 1.3rem;
+    }
+    #cn{font-size: 1.5rem;
+  font-weight: 400;
+color: sandybrown;
+margin-left: 2rem;}
+#lo
+  {font-size: 1.3rem;
+      font-weight: 300;
+  color: black;
+  margin-left: 2rem;
+}
+.de{
+   margin-left: 2rem;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+.dn{
+  font-size: 1.2rem;
+}
+
+.effect:hover{
+
+  color: red;
+
+}
+}
    
